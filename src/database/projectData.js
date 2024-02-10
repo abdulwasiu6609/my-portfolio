@@ -1,4 +1,4 @@
-const ProjectData = [
+let ProjectData = [
   {
     image:
       "https://abdulwasiu6609.github.io/portfolio/assets/images/profile.jpg",
