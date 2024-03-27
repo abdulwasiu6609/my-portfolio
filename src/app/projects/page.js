@@ -11,7 +11,9 @@ export default function Projects() {
   const filters = [
     "All",
     "HTML/CSS",
+    "JavaScript/TypeScript",
     "Angular/React/Vue",
+    "Moble/ReactNative",
     "Java",
     "Swing/JavaFx/Spring",
     "Python/Django/Flask",
