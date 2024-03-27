@@ -17,6 +17,7 @@ export default function Header() {
       label: "projects",
       href: "/projects",
     },
+    /*
     {
       id: "blogs",
       label: "blogs",
@@ -32,6 +33,7 @@ export default function Header() {
       label: "contact",
       href: "/contact",
     },
+    */
   ];
 
   const [showMenu, setShowMenu] = useState(true);
