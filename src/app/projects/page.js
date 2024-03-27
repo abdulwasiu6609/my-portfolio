@@ -10,9 +10,11 @@ export default function Projects() {
   const projectData = ProjectData;
   const filters = [
     "All",
-    "Angular",
-    "React",
-    "Python/Django",
+    "HTML/CSS",
+    "Angular/React/Vue",
+    "Java",
+    "Swing/JavaFx/Spring",
+    "Python/Django/Flask",
     "Ruby/Rails",
     "PHP",
   ];
