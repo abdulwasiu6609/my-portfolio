@@ -1,5 +1,5 @@
 let ProjectData = [
-  
+  /*
   {
     image:"",
     client:"",
@@ -8,6 +8,16 @@ let ProjectData = [
     technologies: [],
     sourceCode: "",
     liveProject: "",
+  },
+  */
+  {
+    image:"https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/FCC-Cat-Painting.png?raw=true",
+    client:"Sample",
+    summary:"The fCC-Cat-Painting project showcases an animated cat painting using HTML and CSS, featuring detailed elements like ears, eyes, nose, and whiskers.",
+    title: "Cat-Painting",
+    technologies: ["HTML","CSS"],
+    sourceCode: "https://github.com/abdulwasiu6609/Cat-Painting",
+    liveProject: "https://abdulwasiu6609.github.io/Cat-Painting/",
   },
   {
     image:"https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/Balance-Sheet.png?raw=true",
