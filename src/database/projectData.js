@@ -1,13 +1,25 @@
 let ProjectData = [
   {
     image:
+      "https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/Cafe-Menu.png?raw=true",
+    client: "Sample",
+    summary:
+      "Cafe-Menu is a static webpage displaying coffee and dessert items with prices. HTML used for structure, styled with linked CSS.",
+    title: "Cafe-Menu",
+
+    technologies: ["HTML","CSS"],
+    sourceCode: "https://github.com/abdulwasiu6609/Cafe-Menu",
+    liveProject: "https://abdulwasiu6609.github.io/Cafe-Menu/",
+  },
+  {
+    image:
       "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg",
     client: "Sample",
     summary:
       "CatPhotoApp is a responsive web project displaying cat photos, lists, and a form. Utilizes HTML for structure. Suitable for beginners and cat enthusiasts.",
     title: "Cat-Photo-App",
 
-    technologies: ["HTML/CSS"],
+    technologies: ["HTML"],
     sourceCode: "https://github.com/abdulwasiu6609/Cat-Photo-App",
     liveProject: "https://abdulwasiu6609.github.io/Cat-Photo-App/",
   },
