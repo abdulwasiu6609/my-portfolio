@@ -2,7 +2,7 @@ let ProjectData = [
   {
     image:
       "https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg",
-    client: "Sample Project",
+    client: "Sample",
     summary:
       "CatPhotoApp is a responsive web project displaying cat photos, lists, and a form. Utilizes HTML for structure. Suitable for beginners and cat enthusiasts.",
     title: "Cat-Photo-App",
