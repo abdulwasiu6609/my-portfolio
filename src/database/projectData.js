@@ -1,15 +1,16 @@
 let ProjectData = [
   {
     image:
-      "https://abdulwasiu6609.github.io/portfolio/assets/images/profile.jpg",
-    client: "Google1",
+      "my-portfolio/src/assets/images
+/Cat-Photo-App.png",
+    client: "Sample Project",
     summary:
-      "Project summary goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel sapien quis nulla dictum euismod...",
-    title: "SaaS Product",
+      "CatPhotoApp is a responsive web project displaying cat photos, lists, and a form. Utilizes HTML for structure. Suitable for beginners and cat enthusiasts.",
+    title: "Cat-Photo-App",
 
-    technologies: ["Angular", "Django", "MongoDB", "HTML/CSS"],
-    sourceCode: "https://github.com",
-    liveProject: "https://abdulwasiu6609.github.io/portfolio/",
+    technologies: ["HTML/CSS"],
+    sourceCode: "https://github.com/abdulwasiu6609/Cat-Photo-App",
+    liveProject: "https://abdulwasiu6609.github.io/Cat-Photo-App/",
   },
   {
     image:
