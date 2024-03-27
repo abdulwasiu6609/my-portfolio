@@ -1,8 +1,7 @@
 let ProjectData = [
   {
     image:
-      "my-portfolio/src/assets/images
-/Cat-Photo-App.png",
+      "https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/Cat-Photo-App.png?raw=true",
     client: "Sample Project",
     summary:
       "CatPhotoApp is a responsive web project displaying cat photos, lists, and a form. Utilizes HTML for structure. Suitable for beginners and cat enthusiasts.",
