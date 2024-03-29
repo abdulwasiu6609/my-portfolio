@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CTASection() {
   return (
-    <section className="cta-section bg-blue-light px-[10%] text-center py-10  md:px-[20%] mt-10 flex flex-col  justify-center items-center ">
+    <section className="cta-section bg-blue-light  text-center py-10  md:px-[20%] mt-10 flex flex-col  justify-center items-center ">
       <img
         src="https://abdulwasiu6609.github.io/portfolio/assets/images/profile.jpg"
         alt="profile-picture"
