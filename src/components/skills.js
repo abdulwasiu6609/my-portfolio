@@ -50,9 +50,9 @@ export default function Skills() {
   };
 
   return (
-    <section className="bg-whiteBg p-6 px-[10%] font-roboto flex flex-col flex-wrap gap-6 justify-center items-center md:px-20">
+    <section className="bg-whiteBg p-6 flex flex-col justify-center items-center">
       <div className="skill-overview text-center md:max-w-3xl">
-        <h1 className="text-3xl font-semibold font-blue-darker py-4">
+        <h1 className="text-3xl font-semibold text-gray-600 py-4">
           Skills Overview
         </h1>
         <p className="text-lg tracking-wide text-gray-600 ">
@@ -66,7 +66,7 @@ export default function Skills() {
           </Link>{" "}
         </p>
       </div>
-      <div className="skill-cards flex flex-wrap  md:grid-cols-3 gap-10 justify-center items-center ">
+      <div className="skill-cards flex flex-wrap justify-center items-start gap-10 ">
         <SkillCard
           title={"Frontend"}
           icon={

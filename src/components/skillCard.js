@@ -5,12 +5,12 @@ export default function SkillCard(props) {
   const { icon, title, skills } = props;
 
   return (
-    <div className="flex flex-col  bg-white w-[450px]  sm:w-96 md:w-80 h-80 p-4 mt-12 rounded-lg justify-center items-center relative shadow-lg  ">
-      <div className=" size-[100px] bg-blue-light rounded-full absolute -top-10 left-[40%] sm:left-[38%] md:left-[33%] flex justify-center items-center ">
+    <div className="flex flex-col  bg-white w-[400px] md:w-[300px]  h-80 p-4 mt-12 rounded-lg justify-center items-center relative shadow-lg  ">
+      <div className=" size-[100px] bg-blue-light rounded-full absolute -top-10 left-[150px] md:left-[100px] flex justify-center items-center ">
         {icon}
       </div>
       <div className="flex flex-col gap-4 py-6 mt-10">
-        <h2 className="text-2xl font-semibold font-blue-darker text-center">
+        <h2 className="text-2xl font-semibold text-gray-600 text-center">
           {title}
         </h2>
         <ul className="text-left flex flex-col justify-start items-start gap-2 ">
