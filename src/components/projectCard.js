@@ -13,7 +13,7 @@ export default function ProjectCard(props) {
   } = props;
   return (
     <div className="project-card w-[300px] shadow-lg ">
-      <div className="project-image w-full h-[350px] md:h-[250px] group relative">
+      <div className="project-image w-full h-[300px]  group relative">
         <img className="w-full h-full object-content" src={imageSrc} />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.2)] hover:bg-[rgba(0,0,0,0)]  flex justify-center items-center ">
           <h1 className="text-5xl md:text-3xl font-semibold text-center align-middle">
@@ -24,7 +24,7 @@ export default function ProjectCard(props) {
           <h2 className="text-3xl md:text-2xl md:px-5 md:pt-1 font-semibold">
             Client: <span className="text-2xl">{client}</span>
           </h2>
-          <p className="text-xl md:px-5 md:mt-1 h-[200px] mt-1   overflow-auto">
+          <p className="text-xl md:px-5 md:mt-1 h-[170px] mt-1   overflow-auto">
             {summary}
           </p>
           <div className="flex justify-between mt-2 gap-3 w-full ">
