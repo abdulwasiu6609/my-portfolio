@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
     liveProject,
   } = props;
   return (
-    <div className="project-card w-[400px]  md:w-[300px] shadow-lg ">
+    <div className="project-card w-[100%]  md:w-[300px] shadow-lg ">
       <div className="project-image w-full h-[350px] md:h-[250px] group relative">
         <img className="w-full h-full object-content" src={imageSrc} />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.2)] hover:bg-[rgba(0,0,0,0)]  flex justify-center items-center ">

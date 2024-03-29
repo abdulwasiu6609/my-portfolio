@@ -10,7 +10,7 @@ export default function Footer() {
       <p className="text-blue-light">
         <FaRegCopyright className="text-gray-300" />
       </p>{" "}
-      <p className="  ">
+      <p className="pl-2  ">
         {new Date().getFullYear()} Abdul Wasiu. All rights reserved.
       </p>
 

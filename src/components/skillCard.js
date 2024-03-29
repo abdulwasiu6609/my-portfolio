@@ -5,8 +5,8 @@ export default function SkillCard(props) {
   const { icon, title, skills } = props;
 
   return (
-    <div className="flex flex-col   w-[400px] md:w-[300px]  h-80 p-4 mt-12 rounded-lg justify-center items-center relative shadow-lg  ">
-      <div className=" size-[100px] bg-blue-light rounded-full absolute -top-10 left-[150px] md:left-[100px] flex justify-center items-center ">
+    <div className="flex flex-col   w-[100%] md:w-[300px]  h-80 p-4 mt-12 rounded-lg justify-center items-center relative shadow-lg  ">
+      <div className=" size-[100px] bg-blue-light rounded-full absolute -top-10 left-[50%] md:left-[100px] flex justify-center items-center ">
         {icon}
       </div>
       <div className="flex flex-col gap-4 py-6 mt-10">
