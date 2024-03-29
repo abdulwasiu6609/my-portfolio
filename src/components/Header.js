@@ -56,7 +56,7 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="flex flex-col md:flex-row  gap-y-10 justify-between p-6 text-white bg-blue-dark w-full relative">
+    <nav className="flex flex-col md:flex-row  gap-y-10 justify-between px-3 py-6 sm:p-6 text-white bg-blue-dark w-full relative">
       <SocialIcons />
 
       <div
