@@ -12,7 +12,7 @@ export default function CTASection() {
       <h2 className="text-3xl font-semibold p-3">
         Interested in hiring me for your project?
       </h2>
-      <p className="text-lg leading-7 ">
+      <p className="text-lg leading-7 px-4 ">
         Looking for an experienced full-stack developer to build your web app or
         ship your software product? To start an initial chat, just drop me an
         email at{" "}
@@ -27,12 +27,15 @@ export default function CTASection() {
           form on the contact page.
         </Link>
       </p>
-      <Link
+      
+        <Link
         href="/contact"
-        className="text-xl bg-blue-darker hover:bg-blue-dark mt-5 w-full md:w-auto text-white px-5 py-3 rounded-lg"
+        className="text-xl bg-blue-darker hover:bg-blue-dark mt-5 w-[90%] md:w-auto text-white px-5 py-3 rounded-lg"
       >
         Let's Talk
       </Link>
+      
+      
     </section>
   );
 }

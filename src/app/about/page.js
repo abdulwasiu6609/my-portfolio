@@ -62,7 +62,7 @@ export default function About() {
 
         </div>
         <Link
-          className="text-white w-[80%] sm:w-fit  text-center bg-blue-light px-4 py-2 rounded-lg hover:bg-blue-dark mt-6 -mb-4 "
+          className="text-white w-[90%] sm:w-fit  text-center bg-blue-light px-4 py-2 rounded-lg hover:bg-blue-dark mt-6 -mb-4 "
           href="/projects"
         >
           View all projects

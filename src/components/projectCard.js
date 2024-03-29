@@ -12,7 +12,7 @@ export default function ProjectCard(props) {
     liveProject,
   } = props;
   return (
-    <div className="project-card w-[100%]  md:w-[300px] shadow-lg ">
+    <div className="project-card w-[300px] shadow-lg ">
       <div className="project-image w-full h-[350px] md:h-[250px] group relative">
         <img className="w-full h-full object-content" src={imageSrc} />
         <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.2)] hover:bg-[rgba(0,0,0,0)]  flex justify-center items-center ">
@@ -20,23 +20,23 @@ export default function ProjectCard(props) {
             {client}
           </h1>
         </div>
-        <div className="image-overlay bg-[rgba(65,164,245,0.9)] absolute top-0 left-0 w-full h-full p-10 md:p-4  hidden group-hover:block ]">
+        <div className="image-overlay bg-[rgba(65,164,245,0.9)] absolute top-0 left-0 w-full h-full p-6  hidden group-hover:block ]">
           <h2 className="text-3xl md:text-2xl md:px-5 md:pt-1 font-semibold">
             Client: <span className="text-2xl">{client}</span>
           </h2>
-          <p className="text-xl md:px-5 md:mt-1 h-[200px] mt-1  text-ellipsis overflow-hidden">
+          <p className="text-xl md:px-5 md:mt-1 h-[200px] mt-1   overflow-auto">
             {summary}
           </p>
-          <div className="flex justify-center mt-2 md:gap-3  gap-5">
+          <div className="flex justify-between mt-2 gap-3 w-full ">
             <Link
               href={sourceCode}
-              className="px-3 py-2 md:text-[16px]   bg-blue-darker rounded-lg text-xl hover:bg-blue-dark text-white"
+              className="px-2 py-2 text-[16px]   bg-blue-darker rounded-lg  hover:bg-blue-dark text-white"
             >
               Source Code
             </Link>
             <Link
               href={liveProject}
-              className="px-3 py-2 md:text-[16px]  bg-blue-darker rounded-lg text-xl hover:bg-blue-dark text-white"
+              className="px-2 py-2 text-[16px]  bg-blue-darker rounded-lg  hover:bg-blue-dark text-white"
             >
               Live Project
             </Link>
