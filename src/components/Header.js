@@ -60,11 +60,13 @@ export default function Header() {
       <SocialIcons />
 
       <div
-        className={`flex flex-col md:flex-row md:items-center md:justify-center gap-5 items-start justify-start ${showMenu ? "block" : "hidden"}`}
+        className={`flex flex-col  md:flex-row md:items-center md:justify-center gap-5 items-start justify-start ${showMenu ? "block" : "hidden"}`}
       >
         {navItems.map((item) => (
           <button
-            onClick={() => setIsActive(item.label)}
+            onClick={() => setIsActive(item.label)
+              
+            }
             key={item.id}
             className={`${isActive === item.label ? "opacity-100 font-semibold" : ""} opacity-70 hover:opacity-100 hover:font-semibold`}
           >
