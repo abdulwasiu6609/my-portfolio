@@ -60,7 +60,7 @@ export default function Projects() {
           ))}
         </ul>
       </section>
-      <section className="project-cards flex  flex-col md:flex-row flex-wrap  gap-10 justify-center items-start px-10 mb-15">
+      <section className="project-cards flex  flex-col md:flex-row flex-wrap  gap-10 justify-center items-center px-10 mb-15">
         {filteredProjects.map((project, index) => (
           <ProjectCard
             key={index}
