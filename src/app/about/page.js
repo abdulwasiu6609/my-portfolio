@@ -38,14 +38,14 @@ export default function About() {
   };
 
   return (
-    <div className=" text-white">
+    <div className=" text-white w-[100%]">
       <Intro />
       <Skills />
       <section className="liveProjects p-6 flex flex-col justify-center items-center">
         <h1 className="text-3xl font-semibold text-center text-gray-600 pb-6">
           Live Projects
         </h1>
-        <div className="randomProjects flex flex-wrap justify-center items-start gap-10 ">
+        <div className="randomProjects flex flex-wrap justify-center items-center gap-10 ">
           {randomProjects.map((project, index) => (
             <ProjectCard
               key={index}
@@ -60,7 +60,7 @@ export default function About() {
           ))}
         </div>
         <Link
-          className="text-white w-[400px] sm:w-fit text-center bg-blue-light px-4 py-2 rounded-lg hover:bg-blue-dark mt-6 -mb-4 "
+          className="text-white w-[100%] sm:w-fit  text-center bg-blue-light px-4 py-2 rounded-lg hover:bg-blue-dark mt-6 -mb-4 "
           href="/projects"
         >
           View all projects

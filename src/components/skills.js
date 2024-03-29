@@ -66,7 +66,7 @@ export default function Skills() {
           </Link>{" "}
         </p>
       </div>
-      <div className="skill-cards flex flex-wrap justify-center items-start gap-10 ">
+      <div className="skill-cards flex flex-wrap justify-center items-center gap-10 px-6">
         <SkillCard
           title={"Frontend"}
           icon={

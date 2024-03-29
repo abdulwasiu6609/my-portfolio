@@ -21,13 +21,13 @@ export default function ProjectCard(props) {
           </h1>
         </div>
         <div className="image-overlay bg-[rgba(65,164,245,0.9)] absolute top-0 left-0 w-full h-full p-10 md:p-4  hidden group-hover:block ]">
-          <h2 className="text-3xl md:text-2xl md:px-5 md:pt-2 font-semibold">
+          <h2 className="text-3xl md:text-2xl md:px-5 md:pt-1 font-semibold">
             Client: <span className="text-2xl">{client}</span>
           </h2>
-          <p className="text-xl md:px-5 md:mt-2 md:h-[80px] mt-3  text-ellipsis overflow-hidden">
+          <p className="text-xl md:px-5 md:mt-1 h-[200px] mt-1  text-ellipsis overflow-hidden">
             {summary}
           </p>
-          <div className="flex justify-center mt-10 md:gap-3  gap-5">
+          <div className="flex justify-center mt-2 md:gap-3  gap-5">
             <Link
               href={sourceCode}
               className="px-3 py-2 md:text-[16px]   bg-blue-darker rounded-lg text-xl hover:bg-blue-dark text-white"
