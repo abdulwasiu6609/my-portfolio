@@ -2,14 +2,18 @@ import { FaRegCopyright } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-600 py-5 flex justify-center items-center text-gray-300">
-      <p className="text-center flex justify-center items-center gap-1 ">
+    <footer className="bg-gray-600 py-5 px-2 flex justify-center items-center text-gray-300">
+      <p className="text-center  flex justify-center items-center ">
         Copyright{" "}
-        <span className="text-blue-light">
-          <FaRegCopyright className="text-gray-300" />
-        </span>{" "}
+
+      </p>
+      <p className="text-blue-light">
+        <FaRegCopyright className="text-gray-300" />
+      </p>{" "}
+      <p className="  ">
         {new Date().getFullYear()} Abdul Wasiu. All rights reserved.
       </p>
+
     </footer>
   );
 }
