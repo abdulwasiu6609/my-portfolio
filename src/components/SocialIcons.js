@@ -33,7 +33,7 @@ export default function SocialIcons() {
     ]
     return (
 
-        <div className=" flex gap-5">
+        <div className=" flex gap-1 sm:gap-3 md:gap-5">
             {socialIcons.map((item) => (
 
                 <button key={item.name} className="hover:bg-blue-darker focus:bg-blue-darker duration-1000 size-10 rounded-full flex justify-center items-center"><Link href={item.link}>{item.icons}</Link></button>
