@@ -58,13 +58,15 @@ export default function About() {
               liveProject={project.liveProject}
             />
           ))}
+
+          <Link
+            className="text-white w-[100%] sm:w-fit  text-center bg-blue-light px-4 py-2 rounded-lg hover:bg-blue-dark mt-6 -mb-4 "
+            href="/projects"
+          >
+            View all projects
+          </Link>
         </div>
-        <Link
-          className="text-white w-[100%] sm:w-fit  text-center bg-blue-light px-4 py-2 rounded-lg hover:bg-blue-dark mt-6 -mb-4 "
-          href="/projects"
-        >
-          View all projects
-        </Link>
+
       </section>
       <CTASection className="text-white" />
     </div>
