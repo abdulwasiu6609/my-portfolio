@@ -9,7 +9,17 @@ let ProjectData = [
     sourceCode: "",
     liveProject: "",
   },
+  
   */
+  {
+    image:"https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/CalorieCounter.png?raw=true",
+    client:"Sample",
+    summary:"The Calorie Counter Web Application is a user-friendly tool designed to help individuals track their daily calorie intake and expenditure, assisting them in maintaining a balanced diet and healthy lifestyle. This project provides a simple yet effective interface for users to input their daily food consumption and exercise activities, calculate the remaining calories based on a predefined budget, and visualize their progress.",
+    title: "CalorieCounter",
+    technologies: ["HTML","CSS","JavaScript", "DOM"],
+    sourceCode: "https://github.com/abdulwasiu6609/CalorieCounter",
+    liveProject: "https://abdulwasiu6609.github.io/CalorieCounter/",
+  },
   {
     image:"https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/FCC-Cat-Painting.png?raw=true",
     client:"Sample",
