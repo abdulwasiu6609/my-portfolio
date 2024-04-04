@@ -10,13 +10,23 @@ let ProjectData = [
     liveProject: "",
   },
   
+  
   */
+  {
+    image:"https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/Date-Formatter.png?raw=true",
+    client:"Sample",
+    summary:"The Date Formatter Web Application is a simple yet powerful tool designed to help users format the current date and time according to their preferences. This project aims to provide an intuitive interface for users to select various date and time formats and instantly see the formatted result. By leveraging the capabilities of the Date object in JavaScript, this application enables users to understand and experiment with different date and time representations.",
+    title: "Date Formatter",
+    technologies: ["HTML","CSS","JavaScript", "DOM Maniputaion"],
+    sourceCode: "https://github.com/abdulwasiu6609/Date-Formatter",
+    liveProject: "https://abdulwasiu6609.github.io/Date-Formatter/",
+  },
   {
     image:"https://github.com/abdulwasiu6609/my-portfolio/blob/main/src/assets/images/CalorieCounter.png?raw=true",
     client:"Sample",
     summary:"The Calorie Counter Web Application is a user-friendly tool designed to help individuals track their daily calorie intake and expenditure, assisting them in maintaining a balanced diet and healthy lifestyle. This project provides a simple yet effective interface for users to input their daily food consumption and exercise activities, calculate the remaining calories based on a predefined budget, and visualize their progress.",
     title: "CalorieCounter",
-    technologies: ["HTML","CSS","JavaScript", "DOM"],
+    technologies: ["HTML","CSS","JavaScript", "DOM Maniputaion"],
     sourceCode: "https://github.com/abdulwasiu6609/CalorieCounter",
     liveProject: "https://abdulwasiu6609.github.io/CalorieCounter/",
   },
